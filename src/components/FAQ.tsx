@@ -9,11 +9,11 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     question: "Which operating systems are supported?",
-    answer: "postprod3 is built exclusively for macOS, on Apple Silicon."
+    answer: "Truss is built exclusively for macOS, on Apple Silicon."
   },
   {
     question: "Do I need my own cloud storage account?",
-    answer: "Yes. postprod3 mounts and caches against an S3 bucket you own — your media stays in your own storage, billed directly by your cloud provider, not marked up by us."
+    answer: "Yes. Truss mounts and caches against an S3 bucket you own — your media stays in your own storage, billed directly by your cloud provider, not marked up by us."
   },
   {
     question: "How is this different from LucidLink?",
@@ -25,7 +25,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "When can I actually use it?",
-    answer: "postprod3 is still in active development — mounting, caching, and write support (folders, drag-and-drop) all work today in testing, but it isn't packaged for install yet. Waitlist members get first access."
+    answer: "Truss is still in active development — mounting, caching, and write support (folders, drag-and-drop) all work today in testing, but it isn't packaged for install yet. Waitlist members get first access."
   }
 ];
 

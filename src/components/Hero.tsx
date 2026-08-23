@@ -9,7 +9,7 @@ const Hero: FC = () => {
           <div className="hero-badge">In Development · macOS</div>
           <h1>Shared storage that keeps up with your footage.</h1>
           <p>
-            postprod3 is a faster, self-hosted alternative to LucidLink for video teams —
+            Truss is a faster, self-hosted alternative to LucidLink for video teams —
             S3-backed, mounted natively on macOS, built by editors who got tired of waiting
             on scrub-and-cache to catch up.
           </p>
@@ -21,7 +21,7 @@ const Hero: FC = () => {
         </div>
         <div className="hero-visual">
           <div className="hero-image-container">
-            <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="postprod3" className="hero-main-icon" />
+            <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Truss" className="hero-main-icon" />
             <div className="glass-card">
               <div className="card-top">
                 <span className="dot"></span>

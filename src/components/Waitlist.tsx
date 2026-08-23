@@ -8,7 +8,7 @@ const Waitlist: FC = () => {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    window.location.href = `mailto:rnbvfx@gmail.com?subject=${encodeURIComponent('postprod3 — Early Access')}&body=${encodeURIComponent(`Please add me to postprod3's early access list: ${email}`)}`;
+    window.location.href = `mailto:rnbvfx@gmail.com?subject=${encodeURIComponent('Truss — Early Access')}&body=${encodeURIComponent(`Please add me to Truss's early access list: ${email}`)}`;
     setSubmitted(true);
   };
 
@@ -18,7 +18,7 @@ const Waitlist: FC = () => {
         <div className="waitlist-box">
           <span className="waitlist-subtitle">Early Access</span>
           <h2>Be first to mount it.</h2>
-          <p>postprod3 is in active development. Join the waitlist and we'll email you when it's ready for real production use.</p>
+          <p>Truss is in active development. Join the waitlist and we'll email you when it's ready for real production use.</p>
           {submitted ? (
             <p className="waitlist-confirmed">Thanks — check your mail app to send the request.</p>
           ) : (

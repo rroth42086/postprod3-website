@@ -35,7 +35,7 @@ const Features: FC = () => {
             <div className="feature-icon">☁️</div>
             <h3>S3-Backed, Not Locked In</h3>
             <p>
-              Your media lives in your own S3 bucket. postprod3 is the fast mount and
+              Your media lives in your own S3 bucket. Truss is the fast mount and
               caching layer on top of storage you already own and control.
             </p>
           </div>
@@ -47,7 +47,7 @@ const Features: FC = () => {
             <h3>A cache built for scrubbing, not just downloading</h3>
             <p>
               Most cloud-mount tools either download the whole file or stall mid-scrub
-              waiting on the network. postprod3 fetches in small chunks, reads ahead of your
+              waiting on the network. Truss fetches in small chunks, reads ahead of your
               playhead automatically, and lets you pin the ranges you know you'll need.
             </p>
             <ul className="highlight-list">
