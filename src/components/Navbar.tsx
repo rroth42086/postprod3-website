@@ -6,8 +6,8 @@ const Navbar: FC = () => {
     <nav className="navbar">
       <div className="container nav-container">
         <div className="logo">
-          <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Truss Logo" className="logo-img" />
-          <span className="logo-text">TRUSS</span>
+          <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Vault Logo" className="logo-img" />
+          <span className="logo-text">VAULT</span>
         </div>
         <ul className="nav-links">
           <li><a href="#features">Features</a></li>

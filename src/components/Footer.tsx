@@ -7,7 +7,7 @@ const Footer: FC = () => {
       <div className="container footer-container">
         <div className="footer-info">
           <div className="logo">
-            <span className="logo-text">Truss</span>
+            <span className="logo-text">Vault</span>
           </div>
           <p>Shared, S3-Backed Storage for Video Teams.</p>
           <p className="copyright">
